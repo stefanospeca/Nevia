@@ -81,7 +81,7 @@ Class DBMS {
 /* ------- */
    
    
-     $db = new DBMS("localhost", "root", "root", "TDW");
+     $db = new DBMS("localhost:8888", "root", "root", "TDW");
      
      $db->connect();
      
